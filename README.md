@@ -14,8 +14,8 @@ git clone https://github.com/hasbifirasyan/php-adw-be-test.git
 ```sh
 composer install
 ```
-3. Set Up Environment File
-Later you need to config your database and JWT_SECRET
+3. Set Up Environment File  
+-   You need to config your database and JWT_SECRET later
 ```sh
 cp .env.example .env
 ```
