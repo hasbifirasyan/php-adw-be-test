@@ -9,26 +9,22 @@ To get started with this repository, follow the steps below:
 1. Clone the repository to your local machine.
 ```sh
 git clone https://github.com/hasbifirasyan/php-adw-be-test.git
-```
-2. Open the project in your preferred code editor and change directory to api-testing.
-```sh
-cd api-testing
-```
-3. Install the necessary dependencies.
+``` 
+2. Install the necessary dependencies.
 ```sh
 composer install
 ```
-4. Set Up Environment File
+3. Set Up Environment File
 Later you need to config your database and JWT_SECRET
 ```sh
 cp .env.example .env
 ```
-5. Generate Application Key
+4. Generate Application Key
 ```sh
 php artisan key:generate
 ```
 
-6. configure your database 
+5. configure your database 
 ```
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -37,7 +33,7 @@ DB_DATABASE=testing
 DB_USERNAME=your_pg_username
 DB_PASSWORD=your_pg_password
 ```
-7. Run Migrations and seed
+6. Run Migrations and seed
 ```sh
 php artisan migrate
 ```
@@ -45,7 +41,7 @@ php artisan migrate
 php artisan db:seed --class=UserSeeder
 ```
 
-5. Run the project locally.
+7. Run the project locally.
 ```sh
 php artisan serve
 ```
