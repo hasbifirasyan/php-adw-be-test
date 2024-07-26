@@ -8,7 +8,7 @@ To get started with this repository, follow the steps below:
 
 1. Clone the repository to your local machine.
 ```sh
-git clone https://restapi-hasbi-adw-admin@bitbucket.org/hasbifirasyan/restapi-hasbi-adw.git
+git clone https://github.com/hasbifirasyan/php-adw-be-test.git
 ```
 2. Open the project in your preferred code editor and change directory to api-testing.
 ```sh
